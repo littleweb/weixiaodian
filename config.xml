@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0" <!-- phoneGap的版本 -->
+	id		  = "com.weixiaodian.webapp" <!-- 应用的唯一ID，按照习惯，一般采用域名的反向书写命名 -->
+	version   = "1.0.0">
+	
+	<!-- 应用名称 -->
+	<name>微笑点</name>
+	
+	<!-- 应用描述 -->
+	<description>全球最全的笑话库，最次都是最新的。</description>
+
+	<!-- 作者信息 -->
+	<author href="http://www.xiaoweb.com" email="girlblank@gmail.com">小web</author>
+
+	<!-- 应用图标 -->
+	<icon src="icon.png" />
+
+	<!-- 引入API列表 -->
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	
+	<!-- 属性设置 -->
+	<preference name="fullscreen" value="true" />
+</widget>
+
+<!-- 参考文档：https://build.phonegap.com/docs/config-xml -->
